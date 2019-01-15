@@ -1,5 +1,5 @@
 body{
-    font-size: 14px;
+    font-size: 15px;
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
@@ -100,6 +100,30 @@ body{
 .chart .percent:after {
     content: "%";
 }
+
+.owl-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #444;
+}
+
+.owl-nav button{
+    outline: none;
+}
+
+.owl-nav span:hover {
+    color: silver;
+}
+
+.owl-nav .owl-prev span {
+    padding-right: 10px;
+}
+
+.owl-nav .owl-next span {
+    padding-left: 10px;
+}
+
 
 .statsRow {
     justify-content: center;
@@ -332,6 +356,12 @@ body{
 
 #navigation li a {
     color: #444;
+}
+
+.navbar-brand {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .navbar-brand,
