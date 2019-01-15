@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="inner">
+        </div>
+    </div>
+
+    <div id="slides">
+
+        <div class="overlay">
+        </div>
+
+        <div class="slides-container">
+            <img src="img/play.jpg" alt="">
+            <img src="img/work.jpg" alt="">
+            <img src="img/read.jpg" alt="">
+        </div>
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">I'M ZOEY</p>
+                <p class="sub typed"></p>
+            </div>
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand" href="#">Welcome</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="section" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-5">
+                    <img class="aboutImage" src="img/about.jpg" alt="">
+                </div>
+
+                <div class="col-md-7">
+                    <h4>
+                        My name is zoey.
+                    </h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi at, officiis
+                        reprehenderit fugiat maxime illo excepturi animi, est perferendis deleniti suscipit aspernatur,
+                        odio atque accusamus similique ipsum ullam magni.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="skillsSection section" id="skills">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+                    <h2>SKILLS AND HOBBIES</h2>
+                    <p>You know what they say? Work hard, play harder.</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+
+                    <div class="skill">
+                        <span class="chart" data-percent="72">
+                            <span class="percent">72</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Javascript</h4>
+                        <p>Heavily used in web projects. Trying my best to practice eloquent JS.</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="80">
+                            <span class="percent">80</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Python</h4>
+                        <p>"Simple is better than complex" - My favourite quote from The Zen of Python.</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="67">
+                            <span class="percent">67</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>C++</h4>
+                        <p>First C++ encounter is for parallel programming with MPI.</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="70">
+                            <span class="percent">70</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>MySQL</h4>
+                        <p>Preferred for its vertically scalability.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="statsSection section" id="stats">
+        <div class="container">
+            <div class="row statsRow">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="far fa-calendar-times"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">6</h2>
+                                <h3>Months to go till graduation</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="far fa-calendar-times"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">5037</h2>
+                                <h3>Approximation of lines of codes written.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="far fa-calendar-times"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">3</h2>
+                                <h3>Number of web app deployed.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="portfolio">
+        <div class="container">
+            <div class="row">
+
+                <div class="heading">
+                    <h2>PIECES OF LIFE</h2>
+                </div>
+
+                <div class="filter">
+                    <ul id="filters">
+                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                        <li><a href="#" data-filter=".projects">PROJECTS</a></li>
+                        <li><a href="#" data-filter=".books">BOOKS</a></li>
+                        <li><a href="#" data-filter=".notes">NOTES</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemsContainer ">
+
+                    <ul class="items">
+
+                        <li onclick="" class="books col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/wonder_square.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/wonder.jpg" title="View image" class="openButton"
+                                        data-fancybox data-caption="Recommanded to those with a soft heart. Touching but not too cliche.">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href=""" target=" _blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/wonder_square.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/wonder.jpg" title="View image" class="openButton"
+                                        data-fancybox data-caption="Recommanded to those with a soft heart. Touching but not too cliche.">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href=""" target=" _blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+
+                        <li onclick="" class="notes col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/django_square.jpg" alt="">
+                                <div class="icons">
+                                    <a href="img/portfolio/django_imp_exp_tutorial.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="A simple step-by-step tutorial for initializing the django-import-export module on HackMD.">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="https://hackmd.io/s/r1Sb_4jFX" target=" _blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="contactSection section" id="contact">
+        <div class="col-md-12 text-center">
+            <p class="subHeading"></p>
+            <h2>I'd love to hear from you!</h2>
+            <a href="mailTo:r06945042@ntu.edu.tw" class="contactButton">GET IN TOUCH!</a>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <p class="copyright">&copy; Copyright Zoey 2019 Taipei.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery.superslides.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/countUp.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
